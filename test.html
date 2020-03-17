@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="hello">
+    <title>hello</title>
+	<script src="vue.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="userName"/>
+	{{msg}}
+    {{name}}
+	{{userName}}
+	<button @click="test(msg)">button</button>
+	<a :href="url">url</a>
+</div>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            msg: "hello world",
+            name:"welcome",
+			userName:"hello",
+			url:"http://www.atguigu.com/download.shtml"
+        },
+		methods:{
+			test(content){
+				alert(content)
+			}
+		}
+    })
+</script>
+</body>
+</html>
