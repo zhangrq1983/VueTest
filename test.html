@@ -7,28 +7,16 @@
 	<script src="vue.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-<div id="app">
-    <input type="text" v-model="userName"/>
-	{{msg}}
-    {{name}}
-	{{userName}}
-	<button @click="test(msg)">button</button>
-	<a :href="url">url</a>
-</div>
+    <div id="app">
+        <input type="text" v-model="username">
+        <p>hello {{username}}</p>
+    </div>
 <script>
-    new Vue({
-        el: "#app",
+    const vm = new Vue({
+        el: '#app',
         data: {
-            msg: "hello world",
-            name:"welcome",
-			userName:"hello",
-			url:"http://www.atguigu.com/download.shtml"
-        },
-		methods:{
-			test(content){
-				alert(content)
-			}
-		}
+            username: "Hello Vue!"
+        }
     })
 </script>
 </body>
