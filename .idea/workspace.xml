@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vueTestProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -107,10 +107,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="320" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1586071681985" />
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1586067982539">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1586086379478">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1586067982539" />
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1586086379478" />
     <state x="221" y="72" key="SettingsEditor" timestamp="1586067547168">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -119,9 +119,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1586071700075" />
-    <state x="421" y="221" key="git4idea.merge.GitPullDialog" timestamp="1586071720835">
+    <state x="421" y="221" key="git4idea.merge.GitPullDialog" timestamp="1586086196732">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="421" y="221" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1586071720835" />
+    <state x="421" y="221" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1586086196732" />
   </component>
 </project>
