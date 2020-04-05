@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="hello">
+    <title>hello</title>
+	<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-model="username">
+        <p>hello {{username}}</p>
+        <!--<p>{{{url}}}</p>-->
+        <p v-html="url" ></p>
+        <p v-text="url" ></p>
+        <img v-bind:src="imgUrl"/>
+        <img :src="imgUrl"/>
+        <br/>
+        <button v-on:click="test">button</button>
+        <button @click="test">test1</button>
+        <button @click="test2(url)">test2</button>
+    </div>
+<script>
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            username: "Hello Vue!",
+            url:"<a href='http://www.baidu.com'>i will back</a>",
+            imgUrl: "https://cn.vuejs.org/images/logo.png"
+        },
+        methods: {
+            test() {
+                alert("hehe")
+            },
+            test2(content){
+                alert(content)
+            }
+        }
+    })
+</script>
+</body>
+</html>
