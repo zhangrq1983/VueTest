@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e4ca75-da18-4434-bfe0-674821649e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <workItem from="1583894578603" duration="432000" />
       <workItem from="1586063533167" duration="70000" />
       <workItem from="1586065665784" duration="47000" />
-      <workItem from="1586066897733" duration="2602000" />
+      <workItem from="1586066897733" duration="2888000" />
     </task>
     <task id="LOCAL-00001" summary="学习Vue">
       <created>1586067652752</created>
@@ -71,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586067652753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="学习Vue">
+      <created>1586071644033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586071644033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="学习Vue">
+      <created>1586071671525</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586071671525</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,14 +95,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="学习Vue" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="312" y="88" key="#Notifications" timestamp="1586086142831">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="88" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1586086142831" />
     <state x="174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586067377373">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1586067377373" />
-    <state x="320" y="23" key="CommitChangelistDialog2" timestamp="1586071642429">
+    <state x="320" y="23" key="CommitChangelistDialog2" timestamp="1586071681985">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="320" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1586071642429" />
+    <state x="320" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1586071681985" />
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1586067982539">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -98,9 +115,13 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1586067547168" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1586071645579">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1586071700075">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1586071645579" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1586071700075" />
+    <state x="421" y="221" key="git4idea.merge.GitPullDialog" timestamp="1586071720835">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="421" y="221" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1586071720835" />
   </component>
 </project>
