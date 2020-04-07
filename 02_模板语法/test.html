@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>02_模板语法</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
 </head>
 <body>
 <!--
@@ -31,32 +32,36 @@
 
 <div id="app">
     <h2>1. 双大括号表达式</h2>
-    <p>{{content}}</p>
-    <p>{{content.toUpperCase()}}</p>
+    <p>{{msg}}</p>
+    <p>{{msg.toUpperCase()}}</p>
+<!--    <p>{{{msgUrl}}</p>-->
+
+    <p v-text="msgUrl"></p>
+    <p v-html="msgUrl"></p>
 
     <h2>2. 指令一: 强制数据绑定</h2>
-    <a href="url">访问指定站点</a><br>
-    <a v-bind:href="url">访问指定站点2</a><br>
-    <a :href="url">访问指定站点2</a><br>
+    <img src="imgUrl">
+    <img v-bind:src="imgUrl">
+    <img :src="imgUrl">
 
     <h2>3. 指令二: 绑定事件监听</h2>
     <button v-on:click="test">点我</button>
-    <button @click="test">点我</button>
-
+    <button @click="test2(msgUrl)">点我</button>
 </div>
-
-
-<script type="text/javascript" src="../js/vue.js"></script>
 <script type="text/javascript">
     new Vue({
         el: '#app',
         data: {
-            content: 'NBA I Love This Game',
-            url: 'http://www.atguigu.com'
+            msg:'I Will Back',
+            msgUrl: '<a href="http://www.baidu.com">I Will Back</a>',
+            imgUrl: 'https://cn.vuejs.org/images/dcloud.gif'
         },
         methods: {
             test () {
-                alert('好啊!!!')
+                alert('hehe!')
+            },
+            test2(content){
+                alert(content)
             }
         }
     })
