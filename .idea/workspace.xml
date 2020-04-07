@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f54efd5-fdca-4cf9-b5aa-505bb30fee47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07_事件处理/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vueTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vueTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_表单输入绑定/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_列表渲染/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/06_列表渲染/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_列表渲染/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/06_列表渲染/test2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +33,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/08_表单输入绑定" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\MyCode\vueTest\08_表单输入绑定" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,11 +51,16 @@
       <option name="presentableId" value="Default" />
       <updated>1586184442096</updated>
       <workItem from="1586184444946" duration="5295000" />
+      <workItem from="1586252230703" duration="2104000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="23" key="CommitChangelistDialog2" timestamp="1586189890398">
