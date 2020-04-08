@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>12_指令_内置指令</title>
+    <script type="text/javascript" src="../js/vue.js"></script>
     <style>
         [v-cloak] { display: none }
     </style>
@@ -22,24 +23,31 @@
   ref : 为某个元素注册一个唯一标识, vue对象通过$refs属性访问这个元素对象
   v-cloak : 使用它防止闪现表达式, 与css配合: [v-cloak] { display: none }
 -->
-<div id="example">
-    <p v-cloak>{{content}}</p>
-    <p v-text="content"></p>   <!--p.textContent = content-->
-    <p v-html="content"></p>  <!--p.innerHTML = content-->
-    <p ref="msg">abcd</p>
-    <button @click="hint">提示</button>
+<div id="demo">
+    <p ref="content">www.baidu.com</p>
+    <button @click="hint">tishi</button>
+<!--    <p v-text="msg"></p>-->
+    <p>{{msg}}</p>
+    <p v-cloak>{{msg}}</p>
+<!--    <p v-text="msg"></p>   &lt;!&ndash;p.textContent = content&ndash;&gt;-->
+<!--    <p v-html="msg"></p>  &lt;!&ndash;p.innerHTML = content&ndash;&gt;-->
+<!--    <p ref="msg">abcd</p>-->
+<!--    <button @click="hint">提示</button>-->
 </div>
 
-<script type="text/javascript" src="../js/vue.js"></script>
+
 <script type="text/javascript">
+    alert('---');
     new Vue({
-        el: '#example',
+        el: '#demo',
         data: {
-            content: '<a href="http://www.baidu.com">百度一下</a>'
+            // content: '<a href="http://www.baidu.com">百度一下</a>'
+            msg:'baidu'
         },
         methods: {
             hint () {
-                alert(this.$refs.msg.innerHTML)
+                alert(this.$refs.content.textContent)
+                // alert(this.$refs.msg.innerHTML)
             }
         }
     })
