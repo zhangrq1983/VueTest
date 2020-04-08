@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f54efd5-fdca-4cf9-b5aa-505bb30fee47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09_Vue实例_生命周期/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_过渡&amp;动画/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_过渡&amp;动画/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_过滤器/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +54,7 @@
       <updated>1586184442096</updated>
       <workItem from="1586184444946" duration="5295000" />
       <workItem from="1586271121725" duration="2150000" />
+      <workItem from="1586353334805" duration="4480000" />
     </task>
     <servers />
   </component>
@@ -63,9 +66,13 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="320" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1586189890398" />
-    <state x="421" y="221" key="git4idea.merge.GitPullDialog" timestamp="1586263887878">
+    <state x="550" y="140" key="RollbackChangesDialog" timestamp="1586352368026">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="421" y="221" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1586263887878" />
+    <state x="550" y="140" key="RollbackChangesDialog/0.0.1440.860@0.0.1440.860" timestamp="1586352368026" />
+    <state x="421" y="221" key="git4idea.merge.GitPullDialog" timestamp="1586352377221">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="421" y="221" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1586352377221" />
   </component>
 </project>
