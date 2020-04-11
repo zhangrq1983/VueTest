@@ -33,8 +33,8 @@
 </div>
 
 <div id="test2">
-    <p v-upper-text="msg"></p>
-    <p v-lower-text="msg"></p>
+    <p v-upper-text="msg2"></p>
+    <p v-lower-text="msg2"></p>
 </div>
 
 <script type="text/javascript">
@@ -45,25 +45,25 @@
         console.log(el, binding)
         el.textContent = binding.value.toUpperCase()
     })
+
     new Vue({
         el: '#test',
         data: {
-            msg: "I Like You"
+            msg: "I Like This Game!"
         },
         // 注册局部指令
         directives: {
             'lower-text'(el, binding) {
-                console.log(el, binding)
-                el.textContent = binding.value.toLowerCase()
+                console.log(el, binding);
+                el.textContent = binding.value.toLowerCase();
             }
         }
-
     })
 
     new Vue({
         el: '#test2',
         data: {
-            msg: "I Like You Too"
+            msg2: "Just Do It!"
         }
     })
 </script>
